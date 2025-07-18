@@ -49,14 +49,11 @@ const Footer = () => {
                     <div className="space-y-5 md:w-1/2">
                         <h1 className="text-2xl mb-4 md:mb-[30px]">Quick Link</h1>
                         <ul className=" mb-6 md:mb-8 pb-5  ">
-                            <NavLink to="/"  rel="noopener noreferrer" >
-                                <li className="hover:text-purple-600 cursor-pointer mb-2 ">Work</li>
+                            <NavLink to="/" className="hover:text-purple-600 cursor-pointer mb-2 ">Work
                             </NavLink>
-                            <NavLink to="/about"  rel="noopener noreferrer">
-                                <li className="hover:text-purple-600 cursor-pointer mb-2">About</li>
+                            <NavLink to="/about" className="hover:text-purple-600 cursor-pointer mb-2">About
                             </NavLink>
-                            <NavLink to="/contact">
-                                <li className="hover:text-purple-600 cursor-pointer mb-2">Let's Talk</li>
+                            <NavLink to="/contact" className="hover:text-purple-600 cursor-pointer mb-2">Let's Talk
                             </NavLink>
                         </ul>
                     </div>
