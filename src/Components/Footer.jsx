@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { FaArrowRight, FaFacebookF, FaLinkedinIn, FaInstagram, FaTwitter } from "react-icons/fa";
 import shape3 from "/Image/contactBottom1.png";
 
@@ -49,15 +49,15 @@ const Footer = () => {
                     <div className="space-y-5 md:w-1/2">
                         <h1 className="text-2xl mb-4 md:mb-[30px]">Quick Link</h1>
                         <ul className=" mb-6 md:mb-8 pb-5  ">
-                            <a href="#" target="_blank" rel="noopener noreferrer" >
+                            <NavLink to="/"  rel="noopener noreferrer" >
                                 <li className="hover:text-purple-600 cursor-pointer mb-2 ">Work</li>
-                            </a>
-                            <a href="/about" target="_blank" rel="noopener noreferrer">
+                            </NavLink>
+                            <NavLink to="/about"  rel="noopener noreferrer">
                                 <li className="hover:text-purple-600 cursor-pointer mb-2">About</li>
-                            </a>
-                            <a href="/contact">
+                            </NavLink>
+                            <NavLink to="/contact">
                                 <li className="hover:text-purple-600 cursor-pointer mb-2">Let's Talk</li>
-                            </a>
+                            </NavLink>
                         </ul>
                     </div>
 
@@ -74,7 +74,7 @@ const Footer = () => {
                             <a href="https://www.linkedin.com/in/jonu-sharma-a316b3275/" target="_blank" rel="noopener noreferrer" className="hover:-translate-y-2 transition-transform">
                                 <FaLinkedinIn className="hover:text-blue-400 cursor-pointer" />
                             </a>
-                            <a href="http://" target="_blank" rel="noopener noreferrer" className="hover:-translate-y-2 transition-transform">
+                            <a href="/" className="hover:-translate-y-2 transition-transform">
                                 <FaInstagram className="hover:text-pink-600 cursor-pointer" />
                             </a>
                         </span>

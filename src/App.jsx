@@ -6,7 +6,6 @@ import About from './Components/About'
 import Certificate from './Components/Certificate'
 import Project from './Pages/Project'
 
-
 function App() {
 
 
@@ -21,6 +20,7 @@ function App() {
           <Route path="/projects" element={<Project />}></Route>
           <Route path="/certificate" element={<Certificate />}></Route>
         </Routes>
+      
       </BrowserRouter>
     </>
   )
