@@ -50,7 +50,7 @@ const HeroSection = () => {
             <motion.button
                 whileHover={{ scale: 1.1 }}
                 className=" rounded-lg p-4 md:relative md:top-24 wave-button">
-                <a className="text-white font-bold" href="/jonu-sharma.pdf" download >Download resume</a>
+                <a className="text-white font-bold" href="/jonu-sharma Resume.pdf" download >Download resume</a>
             </motion.button>
 
         </div>
