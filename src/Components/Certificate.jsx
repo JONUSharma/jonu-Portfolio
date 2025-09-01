@@ -1,11 +1,12 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
 const certificates = [
+   
     {
         id: 1,
-        title: 'Frontend development with react js and Javescript',
-        image: '/Image/frontend google.png',
-        issuer: 'Devtown',
+        title: 'Web development with React js and Express js and mongodb/sql as databases',
+        image: '/Image/Web_Internship.png',
+        issuer: 'XpertStim IT Service Pvt. Ltd.',
     },
     {
         id: 2,
@@ -23,6 +24,12 @@ const certificates = [
         id: 4,
         title: 'Frontend development with react js and Javescript',
         image: '/Image/frontend_devtown.png',
+        issuer: 'Devtown',
+    },
+    {
+        id: 5,
+        title: 'Frontend development with react js and Javescript',
+        image: '/Image/frontend google.png',
         issuer: 'Devtown',
     },
 
