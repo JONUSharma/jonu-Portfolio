@@ -1,6 +1,6 @@
 import { motion,  } from 'framer-motion'
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs } from 'react-icons/fa'
-import { SiTailwindcss, SiExpress, SiMongodb, SiGithub,SiPostman, SiNetlify,SiVercel } from 'react-icons/si'
+import { SiTailwindcss, SiExpress, SiFastapi, SiMongodb, SiGithub,SiPostman, SiNetlify,SiVercel, SiMysql, SiRender } from 'react-icons/si'
 const categories = [
   {
     title: 'Frontend',
@@ -18,7 +18,10 @@ const categories = [
       { name: 'NodeJS', icon: <FaNodeJs className="text-green-500" /> },
       { name: 'ExpressJS', icon: <SiExpress className="text-gray-300" /> },
       { name: 'MongoDB', icon: <SiMongodb className="text-green-600" /> },
+      { name: 'MySQL', icon: <SiMysql className="text-blue-600" /> },
       { name: 'Postman', icon: <SiPostman className="text-orange-500" /> },
+      { name: 'FastAPI', icon: <SiFastapi className="text-teal-500" /> },
+        
     ],
   },
   {
@@ -27,6 +30,7 @@ const categories = [
       { name: 'GitHub', icon: <SiGithub className="text-white" /> },
       { name: 'Netlify', icon: <SiNetlify className="text-cyan-400" /> },
       { name: 'Vercel', icon: <SiVercel className="text-white" /> },
+      { name: 'Render', icon: <SiRender className="text-white" /> },
     ],
   },
 ]
@@ -47,8 +51,10 @@ const Skills = () => {
             <div className="overflow-hidden whitespace-nowrap">
               <motion.div
                 className="flex gap-12"
-                animate={{ x: ['0%', '-100%'] }}
+                animate={{ x: "0%" }}
+                whileInView={{x : ["0%", "100%"]}}
                 transition={{ repeat: Infinity, duration: 25, ease: 'linear' }}
+                viewport={{ once: true, amount: 0.3 }}
               >
                 {category.skills.concat(category.skills).map((skill, index) => (
                   <motion.div

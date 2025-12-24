@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { NavLink, useNavigate } from "react-router-dom";
-import { FaArrowRight, FaFacebookF, FaLinkedinIn, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaArrowRight, FaFacebookF, FaLinkedinIn, FaInstagram, FaTwitter, FaGithub } from "react-icons/fa";
 import shape3 from "/Image/contactBottom1.png";
 
 const Footer = () => {
@@ -65,11 +65,14 @@ const Footer = () => {
                             jonusharma4440@gmail.com
                         </p>
                         <span className="flex gap-5 text-xl">
-                            <a href="https://ww.facebook.com/jonu.sharma.988" target="_blank" rel="noopener noreferrer" className="hover:-translate-y-2 transition-transform">
-                                <FaFacebookF className="hover:text-blue-600 cursor-pointer" />
-                            </a>
                             <a href="https://www.linkedin.com/in/jonu-sharma-a316b3275/" target="_blank" rel="noopener noreferrer" className="hover:-translate-y-2 transition-transform">
                                 <FaLinkedinIn className="hover:text-blue-400 cursor-pointer" />
+                            </a>
+                            <a href="https://github.com/JONUSharma" target="_blank"  className="hover:-translate-y-2 transition-transform">
+                                <FaGithub className="hover:text-grey-600 cursor-pointer" />
+                            </a>
+                            <a href="https://ww.facebook.com/jonu.sharma.988" target="_blank" rel="noopener noreferrer" className="hover:-translate-y-2 transition-transform">
+                                <FaFacebookF className="hover:text-blue-600 cursor-pointer" />
                             </a>
                             <a href="/" className="hover:-translate-y-2 transition-transform">
                                 <FaInstagram className="hover:text-pink-600 cursor-pointer" />
@@ -79,7 +82,7 @@ const Footer = () => {
 
                 </div>
                 <div className="text-xs text-center border-t border-gray-700 pt-4 mt-6">
-                    © 2025 YourCompany. All Rights Reserved.
+                    © 2025 Jonu Sharma. All Rights Reserved.
                 </div>
             </div>
         </div>

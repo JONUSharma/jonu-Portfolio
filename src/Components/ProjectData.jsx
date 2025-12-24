@@ -20,7 +20,7 @@ const projects = [
     {
         logo: '/Image/green-basket.png',
         title: 'Green Basket',
-        badge: ['react.js', 'framer-motion', 'tailwind', 'css', 'javascript', 'swiper'],
+        badge: ['react.js', 'express.js', 'mongodb', 'tailwind', 'css', 'javascript'],
         laptopImg: "/Image/macbook 5.png",
         detail: 'Developed Green Basket, a full-stack e-commerce platform for grocery shopping with features like product listing, cart management, and order processing. Built using modern web technologies with focus on performance, scalability, and user experience.',
         siteUrl: 'https://green-basket-six.vercel.app/',
