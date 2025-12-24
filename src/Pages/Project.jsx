@@ -3,83 +3,9 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 // import 'react-vertical-timeline-component/style.min.css'
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 import { motion } from 'framer-motion'
-import Analog_clock from "/Image/Analog clock.png"
-import Digital_clock from "/Image/Digital clock.png"
-import chat_app from "/Image/chat app.png"
-import Todo from "/Image/Authentication.png"
-import Maternity from "/Image/Maternity.png"
-import lap1 from "/Image/macbook 1.png"
-import lap2 from "/Image/macbook 5.png"
-
+import projects from '../Components/ProjectData'
 const Projects = () => {
-  const projects = [
-    {
-      logo: '/Image/ac-service.png',
-      title: 'AC Services Website',
-      laptopImg: lap1,
-      detail: 'A fully responsive AC service website with service categories, pricing, and booking system built in React and Tailwind.',
-      badge: ['react.js', 'framer-motion', 'tailwind', 'css', 'javascript', "swiper"],
-      siteUrl: 'https://ac-service-pi.vercel.app/',
-      sourceCode: 'https://github.com/JONUSharma/Ac-Service'
-    },
-    {
-      logo: '/Image/ayurveda.png',
-      title: 'Ayurvedic Clinic Website',
-      badge: ['react.js', 'framer-motion', 'tailwind', 'css', 'javascript', 'swiper'],
-      laptopImg: lap2,
-      detail: 'A fully responsive Ayurvedic website with service categories, Doctors, and booking system built in React and Tailwind.',
-      siteUrl: 'https://ayurveda-sigma.vercel.app/',
-      sourceCode: 'https://github.com/JONUSharma/Ayurveda'
-    },
-    {
-      logo: Analog_clock,
-      laptopImg: lap1,
-      title: "Analog Clock",
-      detail: "An analog clock made using HTML and CSS.",
-      badge: ["Html", "css", "js"],
-      sourceCode: "https://github.com/JONUSharma/Analog-clock.git",
-      siteUrl: "https://jonusharma.github.io/Analog-clock/"
-    },
-    {
-      logo: chat_app,
-      laptopImg: lap1,
-      title: "Chat App",
-      detail: "A real-time chat app enabling conversation between authenticated users.",
-      badge: ["React", "tailwind", "express", "mongodb", "socket.io", "redux"],
-      sourceCode: "https://github.com/JONUSharma/Chat-app",
-      siteUrl: "https://jonu-chat-app.netlify.app"
-    },
-    {
-      logo: Digital_clock,
-      title: "Digital Clock",
-      laptopImg: lap2,
-      detail: "A digital clock made with HTML and CSS displaying accurate time and date.",
-      badge: ["Html", "css", "js"],
-      sourceCode: "https://github.com/JONUSharma/analog-watch.git",
-      siteUrl: "https://jonusharma.github.io/Digital-clock/"
-    },
-
-    {
-      logo: Maternity,
-      laptopImg: lap2,
-      title: "Maternity Photographer",
-      detail: "A platform connecting customers with photographers for maternity, newborn, birthday and other shoots.",
-      badge: ["React", "tailwind", "redux"],
-      sourceCode: "https://github.com/JONUSharma/Maternity-photographer",
-      siteUrl: "https://maternity-photograher.netlify.app/"
-    },
-    {
-      logo: Todo,
-      laptopImg: lap1,
-      title: "Todo App",
-      detail: "An authentication-based todo app with task management and backend integration.",
-      badge: ["React", "tailwind", "express", "mongodb"],
-      sourceCode: "https://github.com/JONUSharma/Login-signup",
-      siteUrl: "https://auth-todo-app1.netlify.app"
-    },
-  ]
-
-
+  
   const [visibleCount, setVisibleCount] = useState(3);
   const visibleProjects = projects.slice(0, visibleCount);
   return (
