@@ -1,5 +1,5 @@
 const projects = [
-   
+
     {
         logo: '/Image/green-basket.png',
         title: 'Green Basket',
@@ -18,7 +18,16 @@ const projects = [
         sourceCode: "https://github.com/JONUSharma/Login-signup",
         siteUrl: "https://todo-app-smoky-nine-86.vercel.app/"
     },
-     {
+    {
+        logo: "/Image/notes.png",
+        laptopImg: "/Image/macbook 5.png",
+        title: "Notes Management App",
+        detail: "A Google authentication-based notes management app made with react js and superbase",
+        badge: ["React", "tailwind", "Superbase"],
+        sourceCode: "https://github.com/JONUSharma/notes-management",
+        siteUrl: "https://notes-management-nine.vercel.app/"
+    },
+    {
         logo: '/Image/ac-service.png',
         title: 'AC Services Website',
         laptopImg: "/Image/macbook 1.png",
@@ -63,7 +72,7 @@ const projects = [
         sourceCode: "https://github.com/JONUSharma/analog-watch.git",
         siteUrl: "https://jonusharma.github.io/Digital-clock/"
     },
-    
+
     {
         logo: "/Image/Maternity.png",
         laptopImg: "/Image/macbook 5.png",
