@@ -74,7 +74,7 @@ const Footer = () => {
                             <a href="https://ww.facebook.com/jonu.sharma.988" target="_blank" rel="noopener noreferrer" className="hover:-translate-y-2 transition-transform">
                                 <FaFacebookF className="hover:text-blue-600 cursor-pointer" />
                             </a>
-                            <a href="/https://www.instagram.com/hey.jonu?igsh=cnd2djEwNWE1dDR5" target = "_blank className="hover:-translate-y-2 transition-transform">
+                            <a href="https://www.instagram.com/hey.jonu?igsh=cnd2djEwNWE1dDR5" target = "_blank" className="hover:-translate-y-2 transition-transform">
                                 <FaInstagram className="hover:text-pink-600 cursor-pointer" />
                             </a>
                         </span>
