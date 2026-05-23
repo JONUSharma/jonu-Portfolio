@@ -10,6 +10,15 @@ const projects = [
         sourceCode: 'https://github.com/JONUSharma/Green-Basket'
     },
     {
+        logo: "/Image/Planto.png",
+        laptopImg: "/Image/macbook 5.png",
+        title: "Plant website",
+        detail: "Developed a responsive and visually appealing plant store web application using React, Tailwind CSS, and Framer Motion. The project focuses on modern UI/UX design, reusable components, smooth interactions, and mobile-friendly layouts",
+        badge: ["React", "tailwind", "Framer motion"],
+        sourceCode: "https://github.com/JONUSharma/Planto",
+        siteUrl: "https://planto-zeta.vercel.app/"
+    },
+    {
         logo: "/Image/task-auth.png",
         laptopImg: "/Image/macbook 1.png",
         title: "Task Management App",
