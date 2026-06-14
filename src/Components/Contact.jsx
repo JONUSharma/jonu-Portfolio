@@ -32,7 +32,8 @@ const contact = () => {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    const formData = new FormData(event.target);
+    const formElement = event.target;
+    const formData = new FormData(formElement);
 
     formData.append("access_key", "42a0bed0-761e-4b89-975d-42d6e1764cc4");
 
@@ -50,6 +51,7 @@ const contact = () => {
 
     if (res.success) {
       setIsSubmitted(true)
+      formElement.reset();
       toast.success("Your message send successfully")
     }
   };
