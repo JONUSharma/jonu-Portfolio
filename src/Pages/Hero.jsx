@@ -42,7 +42,6 @@ const HeroSection = () => {
                 transition={{ delay: 1.1, duration: 2 }}
                 className="m-2 text-xl ">
                 "Hi, I'm Jonu Sharma 🖥️. I believe great ideas deserve beautiful, functional websites — and I’m here to build them." <br />
-                I believe great ideas deserve beautiful, functional websites — and I’m here to build them."
 
 
             </motion.p>
