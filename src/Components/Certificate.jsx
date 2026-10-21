@@ -1,13 +1,19 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
 const certificates = [
-   
+
     {
         id: 1,
         title: 'Web development with React js and Express js and mongodb/sql as databases',
         image: '/Image/Web_Internship.png',
         issuer: 'XpertStim IT Service Pvt. Ltd.',
+    }, {
+        id: 6,
+        title: 'Certificate of Completion of AI tools and Claude Workshop',
+        image: '/Image/be10x.png',
+        issuer: 'Be10x',
     },
+
     {
         id: 2,
         title: 'Frontend development with react js and Javescript',
